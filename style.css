@@ -1,0 +1,125 @@
+#playground-property {
+    border: 5px black;
+    border-collapse: collapse;
+    }
+    #playground-property td {
+    border: 1px solid black;
+      padding: 20px;
+    }
+    table{
+     width: 100%;
+      font-size: 20px;
+    }
+    #tr1{
+        background-color: #108f8f ;
+        color: #131413;
+    }
+    #tr2{
+        background-color: #f5f510 ;
+        color: #011FFF;
+    }
+    #tr1:hover {
+        background-color: #f5f510; 
+        color: #011FFF; 
+    }
+    #tr2:hover {
+        background-color: #108f8f; 
+        color: #131413; 
+    }
+    .gear {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background: #ffffff;
+        border-radius: 50%;
+        z-index: 20;
+      }
+      
+      .center {
+        position: absolute;
+        top: 0px;
+        left: -40px;
+        z-index: 6;
+        width: 275px;
+        height: 275px;
+        background: rgb(172, 179, 179);
+        border-radius: 50%;
+      }
+      .circle {
+        position: absolute;
+        top: 78px;
+        left: 45px;
+        z-index: 10;
+        width: 110px;
+        height: 110px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+      }
+      .tooth {
+        position: absolute;
+        top: -25px;
+        left: 75px;
+        z-index: 10;
+        width: 45px;
+        height: 160px;
+        transform-origin: 50% 100%;
+      }
+      
+      .tooth::before,
+      .tooth::after {
+        content: '';
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background: #ffffff;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+      }
+      
+      .tooth::before {
+        transform: rotate(45deg);
+      }
+      
+      .tooth::after {
+        transform: rotate(-45deg);
+      }
+      
+      .tooth:nth-child(2) {
+        transform: rotate(45deg);
+      }
+      
+      .tooth:nth-child(3) {
+        transform: rotate(90deg);
+      }
+      
+      .tooth:nth-child(4) {
+        transform: rotate(135deg);
+      }
+      
+      .tooth:nth-child(5) {
+        transform: rotate(180deg);
+      }
+      
+      .tooth:nth-child(6) {
+        transform: rotate(225deg);
+      }
+      
+      .tooth:nth-child(7) {
+        transform: rotate(270deg);
+      }
+      
+      .tooth:nth-child(8) {
+        transform: rotate(315deg);
+      }
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
